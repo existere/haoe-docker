@@ -10,3 +10,12 @@ docker build . -t dev
 ```sh
 docker run -it --rm --name haoe dev /bin/bash
 ```
+Or, using docker-compose
+
+```sh
+docker-compose build
+```
+
+```sh
+docker-compose run --rm dev
+```
